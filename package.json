@@ -1,0 +1,24 @@
+{
+  "name": "tiddlywiki-mws",
+  "version": "0.0.1",
+  "description": "Installation repository for TiddlyWiki MultiWikiServer plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TiddlyWiki/MWS.git"
+  },
+  "author": "Jeremy Ruston",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/TiddlyWiki/MWS/issues"
+  },
+  "homepage": "https://mws.tiddlywiki.com",
+  "dependencies": {
+    "better-sqlite3": "^11.5.0",
+    "node-sqlite3-wasm": "^0.8.26",
+    "tiddlywiki": "github:TiddlyWiki/TiddlyWiki5#multi-wiki-support-current"
+  }
+}
